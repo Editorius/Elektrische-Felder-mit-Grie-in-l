@@ -1,6 +1,6 @@
 # Upload und GitHub Pages
 
-Dieser Ordner ist eine vorbereitete Kopie der Version 0.8.3. Es wurde noch nichts auf GitHub hochgeladen oder veröffentlicht.
+Dieser Ordner ist eine vorbereitete Kopie der Version 0.8.4. Es wurde noch nichts auf GitHub hochgeladen oder veröffentlicht.
 
 ## 1. Repository anlegen
 
@@ -14,7 +14,7 @@ Den INHALT dieses Ordners hineinziehen: sämtliche Dateien sowie die Ordner asse
 
 Auch .nojekyll und .gitignore mitnehmen. .nojekyll schaltet die Jekyll-Verarbeitung ab. Falls die leere Datei beim Browser-Upload nicht mitgenommen wird, im Repository über „Add file“ → „Create new file“ eine Datei namens .nojekyll mit einer Leerzeile anlegen.
 
-Upload mit einer Beschreibung wie „Erste Veröffentlichung – Version 0.8.3“ auf dem Hauptzweig main speichern. Keine ZIP-Datei anstelle der entpackten Dateien hochladen.
+Upload mit einer Beschreibung wie „Erste Veröffentlichung – Version 0.8.4“ auf dem Hauptzweig main speichern. Keine ZIP-Datei anstelle der entpackten Dateien hochladen.
 
 ## 3. Pages einschalten
 

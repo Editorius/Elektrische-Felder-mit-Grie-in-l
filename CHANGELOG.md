@@ -1,3 +1,7 @@
+## 0.8.4 – Anschlüsse für Anordnung 07
+
+Linke Zuleitung zur Platte (x=35 bis 286) und rechte Zuleitung zum Spitzenkörper (x=709 bis 965), jeweils y=496 und im bestehenden Stil. Katalog und eingebettete SVGs aktualisiert. Beide Leitungen sind Teil der Feldberechnung; Spalt und Spitze unverändert. Prüfraster um Leitungen und Potentialzuordnung ergänzt. GitHub-Uploadordner auf denselben Stand gebracht.
+
 ## 0.8.3 – Zuleitungen für Anordnung 06
 
 Linke Zuleitung von x=35 bis 226 und rechte von x=774 bis 965 auf y=496, im Stil der übrigen Anordnungen. Katalogzuordnung und eingebettete SVG-Daten aktualisiert. Zuleitungen sind Teil der jeweiligen Leiterfläche im Feldlöser; der Ring bleibt isoliert. Geometrieprüfung auf Potentialzuordnung und Ausschluss der Zuleitungen aus der freien Feldabfrage erweitert.

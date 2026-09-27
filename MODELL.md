@@ -1,10 +1,10 @@
-# Elektrische Felder – Version 0.8.3
+# Elektrische Felder – Version 0.8.4
 
 Roadmap-Schritt 7f: Alle sieben Elektrodenanordnungen, mit Rotation, Translation und qualitativer Strangbildung.
 
 ## Kompaktes Interface
 
-Version 0.8.3 bündelt Schale, Öl und Grieß in einer wechselnden Vorbereitungskachel. Die Elektrodenauswahl bleibt separat. Feld- und Bewegungssteuerung liegen unter der Schale; Erklärungstexte und die rechte Übersichtsspalte entfallen. Physik, Geometrien und Zeitsteuerung bleiben unverändert. Die Darstellung passt sich Tablet-Hoch-/Querformat und schmalen Bildschirmen an.
+Version 0.8.4 bündelt Schale, Öl und Grieß in einer wechselnden Vorbereitungskachel. Die Elektrodenauswahl bleibt separat. Feld- und Bewegungssteuerung liegen unter der Schale; Erklärungstexte und die rechte Übersichtsspalte entfallen. Physik, Geometrien und Zeitsteuerung bleiben unverändert. Die Darstellung passt sich Tablet-Hoch-/Querformat und schmalen Bildschirmen an.
 
 ## Start und Bedienung
 
@@ -46,7 +46,7 @@ Der Kreis bestimmt ausschließlich die Anfangspositionen. Später können Körne
 
 ## Anordnung 07: Platte und Spitze
 
-Original-SVG unverändert und ohne ergänzte Zuleitungen. Platte positiv, Spitzenkörper negativ; Leiterzuordnung links/rechts der Trennlinie x=380. Rasterweite 5, Achse y=496. Referenzfeld und zentrale Linienstartpunkte liegen bei x=375 im freien Spalt, weil die Schalenmitte innerhalb des Spitzenkörpers liegt. Sonst gelten derselbe Löser, dieselbe Zeitsteuerung und dieselben Kornkräfte. Das numerisch aufgelöste Spitzenfeld ist qualitativ; unmittelbar an der idealen scharfen Ecke hängt die Feldstärke stark von der Rasterweite ab und ist keine reale maximale Feldstärke.
+Zuleitungen von links zur Platte und von rechts zum gerundeten Spitzenkörper werden zusammen mit den Elektroden aus der SVG gerastert. Platte positiv, Spitzenkörper negativ; Leiterzuordnung links/rechts der Trennlinie x=380. Rasterweite 5, Achse y=496. Referenzfeld und zentrale Linienstartpunkte liegen bei x=375 im freien Spalt, weil die Schalenmitte innerhalb des Spitzenkörpers liegt. Sonst gelten derselbe Löser, dieselbe Zeitsteuerung und dieselben Kornkräfte. Das numerisch aufgelöste Spitzenfeld ist qualitativ; unmittelbar an der idealen scharfen Ecke hängt die Feldstärke stark von der Rasterweite ab und ist keine reale maximale Feldstärke.
 
 ## Anordnung 06: Isolierter Metallring
 

@@ -25,8 +25,8 @@ function grid(h,extent=1500){
   for(let iy=0;iy<n;iy++)for(let ix=0;ix<n;ix++){
     const x=originX+ix*h,y=originY+iy*h,k=iy*n+ix;
     if(ix===0||iy===0||ix===n-1||iy===n-1)fixed[k]=1;
-    else if(x>=284.5&&x<=315.5&&y>=273.5&&y<=716.5){fixed[k]=1;values[k]=.5;}
-    else if(metal(x,y)){fixed[k]=1;values[k]=-.5;}
+    else if((x>=284.5&&x<=315.5&&y>=273.5&&y<=716.5)||(x>=35&&x<=286&&Math.abs(y-496)<=5)){fixed[k]=1;values[k]=.5;}
+    else if(metal(x,y)||(x>=709&&x<=965&&Math.abs(y-496)<=5)){fixed[k]=1;values[k]=-.5;}
   }
   return {n,spacing:h,originX,originY,fixed,values};
 }
@@ -36,7 +36,9 @@ function grid(h,extent=1500){
   const field=geometry.prepareSolution(fine,config),center=fine.sample(375,496);
   const refinement=Math.abs(coarse.sample(375,496).ex/center.ex-1),domain=Math.abs(large.sample(375,496).ex/center.ex-1);
   assert(center.ex>0);assert(Math.abs(center.ey)/center.ex<.02);assert(refinement<.1);assert(domain<.01);
-  for(const [x,y] of [[300,496],[440,496],[650,496]])assert.equal(fine.sample(x,y),null);
+  for(const [x,y] of [[100,496],[900,496],[300,496],[440,496],[650,496]])assert.equal(fine.sample(x,y),null);
+  const g=grid(5),at=(x,y)=>Math.round((y-g.originY)/5)*g.n+Math.round((x-g.originX)/5);
+  assert.equal(g.values[at(100,496)],.5);assert.equal(g.values[at(900,496)],-.5);
   const top=fine.sample(375,400),bottom=fine.sample(375,592);
   assert(Math.abs(top.ex-bottom.ex)/center.ex<.02);assert(Math.abs(top.ey+bottom.ey)/center.ex<.02);
   const enhancement=fine.sample(415,496).ex/fine.sample(335,496).ex;

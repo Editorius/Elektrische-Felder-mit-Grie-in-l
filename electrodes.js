@@ -181,7 +181,7 @@ const ELECTRODE_LAYOUTS = [
         "role": "driven"
       }
     ],
-    "connections": []
+    "connections": [{"id":"connection-1","electrode":"electrode-1"},{"id":"connection-2","electrode":"electrode-2"}]
   }
 ];
 const DEFAULT_ELECTRODE_ID = "02-parallele-platten";

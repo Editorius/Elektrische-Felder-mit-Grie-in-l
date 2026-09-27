@@ -1,6 +1,6 @@
 # Elektrische Felder – interaktives Experiment
 
-Version 0.8.3. Deutschsprachige Simulation eines Grieß-Rizinusöl-Experiments mit sieben Elektrodenanordnungen, beweglichem Streubereich und optionalen Feldlinien. Für den Physikunterricht und die Erprobung auf Tablets.
+Version 0.8.4. Deutschsprachige Simulation eines Grieß-Rizinusöl-Experiments mit sieben Elektrodenanordnungen, beweglichem Streubereich und optionalen Feldlinien. Für den Physikunterricht und die Erprobung auf Tablets.
 
 ## Veröffentlichen
 
